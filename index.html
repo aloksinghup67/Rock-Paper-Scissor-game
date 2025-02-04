@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissor</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="csyt.css">
 </head>
 <body>
-    <h1 class="title">Rock Paper Scissors</h1>
-    <button onclick="play('Rock');" class="imgbtn"><img src="Rock.png" class="img"></button>
-    <button onclick="play('Paper');" class="imgbtn"><img src="Paper.png" class="img"></button>
-    <button onclick="play('Scissor');" class="imgbtn"><img src="Scissor.png" class="img"></button>
-    <p class="result"></p>
-    <br>
-    <p class="picked"></p>
-    <br>
-    <p class="js-score"></p>
-    <button onclick="resetGame()" class="playbtn">Reset</button>
+    <div class="container">
+        <h1 class="title">Rock Paper Scissors</h1>
+        <div class="buttons">
+            <button onclick="play('Rock');" class="imgbtn"><img src="Rock.png" alt="Rock" class="img"></button>
+            <button onclick="play('Paper');" class="imgbtn"><img src="Paper.png" alt="Paper" class="img"></button>
+            <button onclick="play('Scissor');" class="imgbtn"><img src="Scissor.png" alt="Scissor" class="img"></button>
+        </div>
+        <p class="result"></p>
+        <p class="picked"></p>
+        <p class="js-score"></p>
+        <button onclick="resetGame()" class="playbtn">Reset</button>
+        <div class="vido"></div>
+    </div>
     <script src="jsyt.js"></script>
-    <p class="vido"></video></p>
 </body>
 </html>
