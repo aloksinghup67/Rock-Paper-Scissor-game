@@ -75,9 +75,7 @@ body {
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Add rounded corners */
     margin-top: 30px; /* Add some spacing */
-    position: absolute;
-    right: -30px;
-    top: 370px;
+    
 }
 
 @media (max-width: 600px) {
