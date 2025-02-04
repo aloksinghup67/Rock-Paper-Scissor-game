@@ -72,7 +72,7 @@ body {
 
 .vid {
     width: 350px; /* Set the width of the video */
-    height: 200px; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Add rounded corners */
     margin-top: 30px; /* Add some spacing */
     position: absolute;
